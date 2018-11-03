@@ -1,0 +1,18 @@
+module.exports = {
+  configureWebpack: {
+    optimization: {
+      splitChunks: {
+        cacheGroups: {
+          theme: {
+            name: 'chunk-theme',
+            test: /[\\/]node_modules\/element-ui[\\/]/,
+            chunks: 'all',
+            priority: 1,
+            reuseExistingChunk: true,
+            enforce: true,
+          },
+        },
+      },
+    },
+  },
+};

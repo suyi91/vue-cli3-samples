@@ -1,5 +1,9 @@
 # vue-cli3-samples
 
+SPA: `vue.config.js.spa`
+
+MPA: `vue.config.js.mpa`
+
 ## Project setup
 ```
 yarn install
