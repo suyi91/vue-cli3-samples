@@ -5,7 +5,7 @@ module.exports = {
         cacheGroups: {
           theme: {
             name: 'chunk-theme',
-            test: /[\\/]node_modules\/element-ui[\\/]/,
+            test: /[\\/]node_modules[\\/]element-ui[\\/]/,
             chunks: 'all',
             priority: 1,
             reuseExistingChunk: true,
