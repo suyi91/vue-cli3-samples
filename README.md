@@ -1,5 +1,7 @@
 # vue-cli3-samples
 
+> [Element-UI](https://github.com/ElemeFE/element) is used as the code splitting example.
+
 SPA: `vue.config.js.spa`
 
 MPA: `vue.config.js.mpa`
